@@ -1,0 +1,34 @@
+body {
+    background-color:yellow;
+}
+
+.espacio_productos {
+    display: flex;
+    width: 75vw;
+    height: 80vh;
+    margin: 80px;
+    padding: 100px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.productos_1, .productos_2 {
+    height: 20px;
+    width: 221.997px;
+}
+
+img {
+    margin: 0px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    border-end-end-radius: 0px; border-bottom-left-radius: 0px;
+}
+
+p {
+    margin: -10px 14px 0px 0px;
+    padding: 14px;
+    border: 4px solid black;
+    border-top: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
