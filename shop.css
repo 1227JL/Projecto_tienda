@@ -1,34 +1,95 @@
+*{
+    margin: 0;
+}
+
 body {
-    background-color:yellow;
+    background-color:#7a8eff;
 }
 
-.espacio_productos {
+.pagina {
+    margin-top: 140px;
+    height: 3760px;
+    width: 98.9vw;
+    background-color: white;
+}
+.espacio_productos, .espacio_productos2, .espacio_productos3, .espacio_productos4, .espacio_productos5, .espacio_productos6, .espacio_productos7, .espacio_productos8, .espacio_productos9, .espacio_productos10, .espacio_productos11, .espacio_productos12, .espacio_productos13, .espacio_productos14, .espacio_productos15, .espacio_productos16, .espacio_productos17, .espacio_productos18, .espacio_productos19, .espacio_productos20, .espacio_productos21, .espacio_productos22, .espacio_productos23, .espacio_productos24, .espacio_productos25, .espacio_productos26, .espacio_productos27, .espacio_productos28, .espacio_productos29, .espacio_productos30, .espacio_productos31, .espacio_productos32, .espacio_productos33, .espacio_productos34, .espacio_productos35, .espacio_productos36, .espacio_productos37, .espacio_productos38, .espacio_productos39, .espacio_productos40, .espacio_productos41, .espacio_productos42, .espacio_productos43, .espacio_productos44, .espacio_productos45, .espacio_productos46, .espacio_productos47, .espacio_productos48, .espacio_productos49, .espacio_productos50 {
     display: flex;
-    width: 75vw;
-    height: 80vh;
-    margin: 80px;
-    padding: 100px;
+    height: 170px;
+    padding-top: 100px;
+    padding-left: 600px;
     background-color: rgb(255, 255, 255);
-    
+    flex-wrap: wrap;
 }
 
-.productos_1, .productos_2 {
-    height: 20px;
+
+.productos_1, .productos_2, .productos_3, .productos_4, .productos_5, .productos_6, .productos_7, .productos_8, .productos_9, .productos_10, .productos_11, .productos_12, .productos_13, .productos_14, .productos_15, .productos_16, .productos_17, .productos_18, .productos_19, .productos_20, .productos_21, .productos_22, .productos_23, .productos_24, .productos_25, .productos_26, .productos_27, .productos_28, .productos_29, .productos_30, .productos_31, .productos_32, .productos_33, .productos_34, .productos_35, .productos_36, .productos_37, .productos_38, .productos_39, .productos_40, .productos_41, .productos_42, .productos_43, .productos_44, .productos_45, .productos_46, .productos_47, .productos_48, .productos_49, .productos_50 {
+    height: 221px;
     width: 221.997px;
+    margin: -6px;
 }
 
 img {
-    margin: 0px;
-    border: 4px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    border-end-end-radius: 0px; border-bottom-left-radius: 0px;
 }
 
 p {
-    margin: -10px 14px 0px 0px;
+    margin: -10px 20px 0px 0px;
     padding: 14px;
-    border: 4px solid black;
     border-top: 0px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;    
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img:hover {
+    padding: -10px;
+    border: 4px solid rgb(0, 255, 115);
+}
+img:hover ~ p{
+    border: 4px solid rgb(0, 255, 115);
+    margin: -10px 13.8px 0px 0px;
+    padding: 12px;
+    border-top: 0px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;    
+}
+
+
+.filtro {
+    padding-top: 90px;
+    position: absolute;
+}
+
+ul, ol{
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+}
+
+.filtro li a {
+    width: 200px;
+    background-color: #ffffff;
+    color:black;
+    text-decoration: none;
+    padding: 10px 28px;
+    display:block
+}
+
+.filtro > li {
+    float: left;
+}
+
+.filtro li a:hover {
+    background-color: #eeeeee;
+}
+
+.filtro li ul {
+    display:none;
+    position: absolute;
+    min-width: 140px;
+
+}
+
+.filtro li:hover > ul{
+    display: block;
 }
